@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Annie's portfolio</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="./css/style.css">
+
+</head>
+
+<body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top">
+        <a class="navbar-brand" href="#"><img src="./img/logo-01-03.png" alt=""></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav  ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">個人簡介</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#project">作品專案</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- banner -->
+    <section id="banner">
+        <div class="jumbotron jumbotron-fluid">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <p class="promo-title">Hello!</p>
+                        <p class="title-text">Welcome to Annie’s portfolio</p>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <!-- about -->
+    <section id="about">
+        <div class="container">
+            <div class="row aboutMe">
+                <div class="col-md-6 ">
+                    <img src="./img/photo.png" alt="" class="setImg">
+                </div>
+                <div class="col-md-6">
+                    <p class="name">李安妮</p>
+                    <p class="ab_text">1998/12/15</p>
+                    <p class="ab_text">4A61c079@stust.edu.tw</p>
+                    <p class="ab_text">南臺科技大學 創新產品設計系</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="project" class="bg-light-gray">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm ">
+                    <div class="card" style="width:400px">
+                        <a href="#"><img class="card-img-top" src="./img/pot_01.png" alt="Card image" style="width:100%"
+                                data-toggle="modal" data-target="#myModal1"></a>
+                        <div class="card-body">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm ">
+                    <div class="card" style="width:400px">
+                        <a href="#"><img class="card-img-top" src="./img/pen_01.png" alt="Card image" style="width:100%"
+                                data-toggle="modal" data-target="#myModal2"></a>
+                        <div class="card-body">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm ">
+                    <div class="card" style="width:400px">
+                        <a href="#"><img class="card-img-top" src="./img/train_01.png" alt="Card image"
+                                style="width:100%" data-toggle="modal" data-target="#myModal3"></a>
+                        <div class="card-body">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- The Modal 1 -->
+    <div class="modal" id="myModal1">
+        <div class="modal-dialog  modal-xl">
+            <div class="modal-content">
+
+                <!-- Modal Header -->
+                <div class="modal-header">
+                    <h3 class="modal-title">鍋智佳</h3>
+                    <button type="button" class="close" data-dismiss="modal">×</button>
+                </div>
+                <!-- Modal body -->
+                <p class="scetitle">鍋智佳是一款給高齡者的智慧鍋具，利用鍋具感測溫度並回傳給使用者，達到提醒的功能，
+                    提升高齡者居住的安全性。
+                </p>
+                <!-- 文字敘述與照片(補) -->
+                <div class="modal-body">
+                    <img src="./img/pot_00.png" alt="" class="photo">
+                </div>
+            </div>
+            <div><img src="" alt=""></div>
+        </div>
+    </div>
+    </div>
+
+    <!-- The Modal 2 -->
+    <div class="modal" id="myModal2">
+        <div class="modal-dialog  modal-xl">
+            <div class="modal-content">
+
+                <!-- Modal Header -->
+                <div class="modal-header">
+                    <h3 class="modal-title">好肌乎</h3>
+                    <button type="button" class="close" data-dismiss="modal">×</button>
+                </div>
+                <!-- Modal body -->
+                <p class="scetitle">AI皮膚檢測儀</p><br>
+                <!-- 文字敘述與照片(補) -->
+                <div class="modal-body">
+                    <img src="./img/pen_00.png" alt="" class="photo">
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <!-- The Modal 3 -->
+    <div class="modal" id="myModal3">
+        <div class="modal-dialog  modal-xl">
+            <div class="modal-content">
+
+                <!-- Modal Header -->
+                <div class="modal-header">
+                    <h3 class="modal-title">台鐵售票系統</h3>
+                    <button type="button" class="close" data-dismiss="modal">×</button>
+                </div>
+                <!-- Modal body -->
+                <p class="scetitle">優化台鐵售票機的介面</p>
+                <!-- 文字敘述與照片(補) -->
+                <div class="modal-body">
+                    <img src="./img/train_00.png" alt="" class="photo">
+                    <p>第一步：選擇購票方式</p>
+                    <img src="./img/train_02.png" alt="" class="photo">
+                    <p>第二步：選擇票種</p>
+                    <img src="./img/train_03.png" alt="" class="photo">
+                    <p>第三步：選擇抵達站</p>
+                    <img src="./img/train_04.png" alt="" class="photo">
+                    <p>第四步：選擇班次時間</p>
+                    <img src="./img/train_05.png" alt="" class="photo">
+                    <p>第五步：確認購票資訊</p>
+                    <img src="./img/train_06.png" alt="" class="trainphoto">
+                    <p>第六步：付款</p>
+                    <img src="./img/train_07.png" alt="" class="trainphoto">
+                    <p>完成</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section>
+
+
+    </section>
+
+</body>
+
+</html>
